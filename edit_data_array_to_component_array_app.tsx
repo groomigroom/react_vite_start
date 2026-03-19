@@ -1,10 +1,17 @@
 import ReactDOM from 'react-dom/client'
 
-const children = [0, 1, 2].map((n: number) => <h3>Hello World! {n}</h3>)
-const rootVirtualDOM = <div>{children}</div>
+const App = () => {
+  const children = [4, 5, 7].map((n: number) => <h3>Hello World! {n}</h3>)
+  const rootVirtualDOM = <div>{children}</div>
 
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
-root.render(rootVirtualDOM)
+
+
+  const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+  root.render(rootVirtualDOM)
+
+}
+
+export default App
 
 
 /*
