@@ -23,6 +23,9 @@ github 커밋
 git commit -m "initial commit"
 git push -u origin master(안되면 main으로 해보기)
 
+위에꺼 안되면 아래꺼로 덮어쓰기
+git push -f origin main
+
 gh-pages 패키지 설치
 -> npm install --save-dev gh-pages
 
